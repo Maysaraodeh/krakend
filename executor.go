@@ -22,15 +22,14 @@ import (
 	jose "github.com/devopsfaith/krakend-jose/v2"
 	logstash "github.com/devopsfaith/krakend-logstash/v2"
 	metrics "github.com/devopsfaith/krakend-metrics/v2/gin"
-	opencensus "github.com/devopsfaith/krakend-opencensus/v2"
-	_ "github.com/devopsfaith/krakend-opencensus/v2/exporter/datadog"
-	_ "github.com/devopsfaith/krakend-opencensus/v2/exporter/influxdb"
-	_ "github.com/devopsfaith/krakend-opencensus/v2/exporter/jaeger"
-	_ "github.com/devopsfaith/krakend-opencensus/v2/exporter/ocagent"
-	_ "github.com/devopsfaith/krakend-opencensus/v2/exporter/prometheus"
-	_ "github.com/devopsfaith/krakend-opencensus/v2/exporter/stackdriver"
-	_ "github.com/devopsfaith/krakend-opencensus/v2/exporter/xray"
-	_ "github.com/devopsfaith/krakend-opencensus/v2/exporter/zipkin"
+	opencensus "github.com/Dorkside/opencensus"
+	_ "github.com/Dorkside/opencensus/exporter/datadog"
+	_ "github.com/Dorkside/opencensus/exporter/jaeger"
+	_ "github.com/Dorkside/opencensus/exporter/ocagent"
+	_ "github.com/Dorkside/opencensus/exporter/prometheus"
+	_ "github.com/Dorkside/opencensus/exporter/stackdriver"
+	_ "github.com/Dorkside/opencensus/exporter/xray"
+	_ "github.com/Dorkside/opencensus/exporter/zipkin"
 	pubsub "github.com/devopsfaith/krakend-pubsub/v2"
 	"github.com/devopsfaith/krakend-usage/client"
 	"github.com/luraproject/lura/v2/async"
@@ -192,8 +191,7 @@ func (e *ExecutorBuilder) NewCmdExecutor(ctx context.Context) cmd.Executor {
 		})
 
 		// start the engines
-		logger.Info("Starting the KrakenD instance")
-
+		logger.Info("CC: Starting the KrakenD instance")
 		if len(cfg.AsyncAgents) == 0 {
 			routerFactory.NewWithContext(ctx).Run(cfg)
 			return

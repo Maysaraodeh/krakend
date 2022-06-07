@@ -1,0 +1,13 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/modeh/Desktop/projects/krakend-ce'
+echo "Building the binary..."
+go get .
+go build -ldflags="-X github.com/luraproject/lura/v2/core.KrakendVersion=2.0.4 \
+	-X github.com/luraproject/lura/v2/core.GoVersion=1.17.9 \
+	-X github.com/luraproject/lura/v2/core.GlibcVersion=DARWIN-10.15.7" \
+	-o krakend ./cmd/krakend-ce
+echo "You can now use ./krakend"
+go test -v ./tests
+ 
+make: Leaving directory `/Users/modeh/Desktop/projects/krakend-ce'
+ 

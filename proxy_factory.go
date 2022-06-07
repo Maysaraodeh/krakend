@@ -7,7 +7,7 @@ import (
 	jsonschema "github.com/devopsfaith/krakend-jsonschema/v2"
 	lua "github.com/devopsfaith/krakend-lua/v2/proxy"
 	metrics "github.com/devopsfaith/krakend-metrics/v2/gin"
-	opencensus "github.com/devopsfaith/krakend-opencensus/v2"
+	opencensus "github.com/Dorkside/opencensus"
 	"github.com/luraproject/lura/v2/config"
 	"github.com/luraproject/lura/v2/logging"
 	"github.com/luraproject/lura/v2/proxy"

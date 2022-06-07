@@ -100,7 +100,7 @@ var aliases = map[string]string{
 	"github_com/devopsfaith/krakend-metrics":    "telemetry/metrics",
 	"github_com/letgoapp/krakend-influx":        "telemetry/influx",
 	"github_com/devopsfaith/krakend-influx":     "telemetry/influx",
-	"github_com/devopsfaith/krakend-opencensus": "telemetry/opencensus",
+	"github_com/Dorkside/opencensus": "telemetry/opencensus",
 
 	"github.com/devopsfaith/krakend-lua/router":        "modifier/lua-endpoint",
 	"github.com/devopsfaith/krakend-lua/proxy":         "modifier/lua-proxy",

@@ -6,7 +6,7 @@ import (
 	botdetector "github.com/devopsfaith/krakend-botdetector/v2/gin"
 	httpsecure "github.com/devopsfaith/krakend-httpsecure/v2/gin"
 	lua "github.com/devopsfaith/krakend-lua/v2/router/gin"
-	opencensus "github.com/devopsfaith/krakend-opencensus/v2/router/gin"
+	opencensus "github.com/Dorkside/opencensus/router/gin"
 	"github.com/luraproject/lura/v2/config"
 	"github.com/luraproject/lura/v2/core"
 	luragin "github.com/luraproject/lura/v2/router/gin"

@@ -1,0 +1,523 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Tue Jun  7 08:34:40 2022
+
+# Variables
+
+# makefile (from `Makefile', line 11)
+PKGNAME := krakend
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `Makefile', line 22)
+GOLANG_VERSION := 1.17.9
+# makefile (from `Makefile', line 47)
+ 
+DEBNAME = ${PKGNAME}_${VERSION}-${RELEASE}_${ARCH}.deb
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/modeh/Desktop/projects/krakend-ce
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 10)
+GIT_COMMIT := 1cc1048
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from `Makefile', line 26)
+FPM_OPTS = -s dir -v $(VERSION) -n $(PKGNAME) --license "$(LICENSE)" --vendor "$(VENDOR)" --maintainer "$(MAINTAINER)" --architecture $(ARCH) --url "$(URL)" --description  "$(DESC)" --config-files etc/ --verbose
+# makefile (from `Makefile', line 42)
+RPM_OPTS = --rpm-user $(USER) --before-install builder/scripts/preinst.rpm --before-remove builder/scripts/prerm.rpm --after-remove builder/scripts/postrm.rpm
+# makefile (from `Makefile', line 9)
+VERSION := 2.0.4
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/cq/cyj6mkds2pxgmfn9qq8_nns00000gq/T/vscode-ipc-8877da5c-7c83-4db1-af57-89de463d4e18.sock
+# environment
+VSCODE_CWD = /
+# makefile (from `Makefile', line 15)
+RELEASE := 0
+# environment
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# makefile (from `Makefile', line 13)
+VENDOR = 
+# makefile (from `Makefile', line 21)
+DOCKER_FPM := devopsfaith/fpm
+# makefile (from `Makefile', line 19)
+MAINTAINER := Daniel Ortiz <dortiz@krakend.io>
+# environment
+LaunchInstanceID = E6ECD47F-657F-4AD8-A2CA-CB40FBE3C460
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.8X8DgVW79K/Listeners
+# makefile (from `Makefile', line 18)
+DESC := High performance API gateway. Aggregate, filter, manipulate and add middlewares
+# automatic
+%F = $(notdir $%)
+# makefile (from `Makefile', line 14)
+URL := http://krakend.io
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/modeh/Desktop/projects/krakend-ce
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `Makefile', line 36)
+DEB_OPTS = -t deb --deb-user $(USER) --depends ca-certificates --before-remove builder/scripts/prerm.deb --after-remove builder/scripts/postrm.deb --before-install builder/scripts/preinst.deb
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/modeh
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/modeh/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = modeh
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+ZSH = /Users/modeh/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 3.81
+# makefile (from `Makefile', line 16)
+USER := krakend
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `Makefile', line 24)
+ALPINE_VERSION := 3.15
+# makefile (from `Makefile', line 7)
+BIN_NAME := krakend
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/cq/cyj6mkds2pxgmfn9qq8_nns00000gq/T/
+# automatic
+*F = $(notdir $*)
+# makefile (from `Makefile', line 8)
+OS := darwin
+# environment
+VSCODE_IPC_HOOK = /Users/modeh/Library/Application Support/Code/1.67.2-main.sock
+# makefile (from `Makefile', line 48)
+RPMNAME = ${PKGNAME}-${VERSION}-${RELEASE}.x86_64.rpm
+# makefile (from `Makefile', line 17)
+ARCH := amd64
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = com.apple.xpc.launchd.oneshot.0x10000001.Electron
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F7:0x0:0x2
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from `Makefile', line 20)
+DOCKER_WDIR := /tmp/fpm
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+SECURITYSESSIONID = 186a6
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from `Makefile', line 23)
+GLIBC_VERSION := DARWIN-10.15.7
+# default
+.INCLUDE_DIRS = /usr/local/include
+# makefile (from `Makefile', line 12)
+LICENSE := Apache 2.0
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 867
+# variable set hash-table stats:
+# Load=89/1024=9%, Rehash=0, Collisions=2/127=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777220, inode 12713017): 28 files, no impossibilities.
+
+# 28 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+builder/skel/%/etc/init.d/krakend: builder/files/krakend.init
+#  commands to execute (from `Makefile', line 124):
+	mkdir -p "$(dir $@)"
+	cp builder/files/krakend.init "$@"
+	
+
+builder/skel/%/usr/bin/krakend: krakend
+#  commands to execute (from `Makefile', line 128):
+	mkdir -p "$(dir $@)"
+	cp krakend "$@"
+	
+
+builder/skel/%/etc/krakend/krakend.json: krakend.json
+#  commands to execute (from `Makefile', line 132):
+	mkdir -p "$(dir $@)"
+	cp krakend.json "$@"
+	
+
+builder/skel/%/lib/systemd/system/krakend.service: builder/files/krakend.service
+#  commands to execute (from `Makefile', line 136):
+	mkdir -p "$(dir $@)"
+	cp builder/files/krakend.service "$@"
+	
+
+builder/skel/%/usr/lib/systemd/system/krakend.service: builder/files/krakend.service
+#  commands to execute (from `Makefile', line 140):
+	mkdir -p "$(dir $@)"
+	cp builder/files/krakend.service "$@"
+	
+
+# 5 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+builder/skel/tgz/etc/krakend/krakend.json:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+builder/skel/deb/etc/krakend/krakend.json:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+builder/skel/rpm/etc/krakend/krakend.json:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: test
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+.PHONY: all build test deb rpm clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+rpm: builder/skel/rpm/etc/krakend/krakend.json builder/skel/rpm/usr/lib/systemd/system/krakend.service builder/skel/rpm/usr/bin/krakend
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 162):
+	docker run --rm -it -v "${PWD}:${DOCKER_WDIR}" -w ${DOCKER_WDIR} ${DOCKER_FPM}:rpm -t rpm ${RPM_OPTS} \
+	--iteration ${RELEASE} \
+	-C builder/skel/rpm \
+	${FPM_OPTS}
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-03 14:40:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+test: build
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+ 
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+#  commands to execute (from `Makefile', line 95):
+	go test -v ./tests
+	
+
+# Not a target:
+builder/skel/tgz/etc/init.d/krakend:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/15=20%
+#  commands to execute (from `Makefile', line 86):
+	@echo "Building the binary..."
+	@go get .
+	@go build -ldflags="-X github.com/luraproject/lura/v2/core.KrakendVersion=${VERSION} \
+	-X github.com/luraproject/lura/v2/core.GoVersion=${GOLANG_VERSION} \
+	-X github.com/luraproject/lura/v2/core.GlibcVersion=${GLIBC_VERSION}" \
+	-o ${BIN_NAME} ./cmd/krakend-ce
+	@echo "You can now use ./${BIN_NAME}"
+	
+
+benchmark:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 106):
+	@mkdir -p bench_res
+	@touch bench_res/${GIT_COMMIT}.out
+	@docker run --rm -d --name krakend -v "${PWD}/tests/fixtures:/etc/krakend" -p 8080:8080 devopsfaith/krakend:${VERSION} run -dc /etc/krakend/bench.json
+	@sleep 2
+	@docker run --rm -it --link krakend peterevans/vegeta sh -c \
+	"echo 'GET http://krakend:8080/test' | vegeta attack -rate=0 -duration=30s -max-workers=300 | tee results.bin | vegeta report" > bench_res/${GIT_COMMIT}.out
+	@docker stop krakend
+	@cat bench_res/${GIT_COMMIT}.out
+	
+
+# Not a target:
+builder/skel/rpm/usr/lib/systemd/system/krakend.service:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build_on_docker:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 99):
+	docker run --rm -it -v "${PWD}:/app" -w /app golang:${GOLANG_VERSION} make -e build
+	
+
+security_scan:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 116):
+	@mkdir -p sec_scan
+	@touch sec_scan/${GIT_COMMIT}.out
+	@docker run --rm -d --name krakend -v "${PWD}/tests/fixtures:/etc/krakend" -p 8080:8080 devopsfaith/krakend:${VERSION} run -dc /etc/krakend/bench.json
+	@docker run --rm -it --link krakend instrumentisto/nmap --script vuln krakend > sec_scan/${GIT_COMMIT}.out
+	@docker stop krakend
+	@cat sec_scan/${GIT_COMMIT}.out
+	
+
+# Not a target:
+builder/skel/tgz/usr/bin/krakend:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONE: tgz
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+builder/skel/deb/usr/bin/krakend:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+builder/skel/rpm/usr/bin/krakend:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+update_krakend_deps:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 53):
+	go get github.com/luraproject/lura/v2@v2.0.4
+	go get github.com/devopsfaith/bloomfilter/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-amqp/v2@v2.0.1
+	go get github.com/devopsfaith/krakend-botdetector/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-cel/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-circuitbreaker/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-cobra/v2@v2.0.1
+	go get github.com/devopsfaith/krakend-cors/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-flexibleconfig/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-gelf/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-gologging/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-httpcache/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-httpsecure/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-influx/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-jose/v2@v2.0.1
+	go get github.com/devopsfaith/krakend-jsonschema/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-lambda/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-logstash/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-lua/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-martian/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-metrics/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-oauth2-clientcredentials/v2@v2.0.0
+	go get github.com/Dorkside/opencensus@v2.0.0
+	go get github.com/devopsfaith/krakend-pubsub/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-ratelimit/v2@v2.0.1
+	go get github.com/devopsfaith/krakend-rss/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-usage@v1.4.0
+	go get github.com/devopsfaith/krakend-viper/v2@v2.0.0
+	go get github.com/devopsfaith/krakend-xml/v2@v2.0.0
+	make test
+	
+
+deb: builder/skel/deb/etc/krakend/krakend.json builder/skel/deb/usr/bin/krakend
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 152):
+	docker run --rm -it -v "${PWD}:${DOCKER_WDIR}" -w ${DOCKER_WDIR} ${DOCKER_FPM}:deb -t deb ${DEB_OPTS} \
+	--iteration ${RELEASE} \
+	--deb-systemd builder/files/krakend.service \
+	-C builder/skel/deb \
+	${FPM_OPTS}
+	
+
+tgz: builder/skel/tgz/etc/init.d/krakend builder/skel/tgz/usr/bin/krakend builder/skel/tgz/etc/krakend/krakend.json
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 147):
+	tar zcvf krakend_${VERSION}_${ARCH}.tar.gz -C builder/skel/tgz/ .
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 170):
+	rm -rf builder/skel/*
+	rm -f *.deb
+	rm -f *.rpm
+	rm -f *.tar.gz
+	rm -f krakend
+	rm -rf vendor/
+	
+
+docker:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 103):
+	docker build --no-cache --pull --build-arg GOLANG_VERSION=${GOLANG_VERSION} --build-arg ALPINE_VERSION=${ALPINE_VERSION} -t devopsfaith/krakend:${VERSION} .
+	
+
+# files hash-table stats:
+# Load=25/1024=2%, Rehash=0, Collisions=0/64=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Tue Jun  7 08:34:40 2022
+
+ 

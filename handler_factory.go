@@ -8,7 +8,7 @@ import (
 	ginjose "github.com/devopsfaith/krakend-jose/v2/gin"
 	lua "github.com/devopsfaith/krakend-lua/v2/router/gin"
 	metrics "github.com/devopsfaith/krakend-metrics/v2/gin"
-	opencensus "github.com/devopsfaith/krakend-opencensus/v2/router/gin"
+	opencensus "github.com/Dorkside/opencensus/router/gin"
 	juju "github.com/devopsfaith/krakend-ratelimit/v2/juju/router/gin"
 	"github.com/luraproject/lura/v2/config"
 	"github.com/luraproject/lura/v2/logging"

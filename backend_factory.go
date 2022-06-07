@@ -13,7 +13,7 @@ import (
 	martian "github.com/devopsfaith/krakend-martian/v2"
 	metrics "github.com/devopsfaith/krakend-metrics/v2/gin"
 	oauth2client "github.com/devopsfaith/krakend-oauth2-clientcredentials/v2"
-	opencensus "github.com/devopsfaith/krakend-opencensus/v2"
+	opencensus "github.com/Dorkside/opencensus"
 	pubsub "github.com/devopsfaith/krakend-pubsub/v2"
 	juju "github.com/devopsfaith/krakend-ratelimit/v2/juju/proxy"
 	"github.com/luraproject/lura/v2/config"
